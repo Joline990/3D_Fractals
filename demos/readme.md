@@ -1,0 +1,15 @@
+# Demos
+## Processing
+### Mandelbulb
+- <a href="./Processing/Mandelbulb/Mandelbulb.pde">Mandelbulb: </a>created by following this tutorial: https://www.youtube.com/watch?v=NJCiUVGiNyA&t=319s
+### Sierpinski
+#### Creating a Sierpinski triangle
+- Step 1 (<a href="./Processing/Sierpinski1/Sierpinski1.pde">Sierpinski1</a>): Draw one triangle in the center of our canvas.
+- Step 2 (<a href="./Processing/Sierpinski2/Sierpinski2.pde">Sierpinski2</a>): Create a function that will loop to make smaller triangles. I called it the `removeTriangle()` function, we don't actually delete the middle triangle, we draw three triangles (or one when only one iteration).
+#### Adding interactivity
+- Based on mouseX, you see other iterations: <a href="./Processing/Sierpinski_mouseX/Sierpinski_mouseX.pde">Sierpinski_mouseX</a>. This was based on the tutorial: https://www.youtube.com/watch?v=fwDkUxrFb0s&t=458s
+#### Other cool things
+- Make the triangles rotate with rotate(framecount), remember to call the loop function in draw() after adding a background, otherwise it won't rotate. https://www.youtube.com/watch?v=7AvyvJnkdjE&t=990s
+- Animating the Arrowhead Curve: https://www.youtube.com/watch?v=ackDGIKx1cw
+### Trees
+- Created basic tree using steps on the Nature of Code website: <a href="./Processing/tree1/tree1.pde">Tree 1</a>

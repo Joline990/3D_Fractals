@@ -13,3 +13,5 @@
 - Animating the Arrowhead Curve: https://www.youtube.com/watch?v=ackDGIKx1cw
 ### Trees
 - Created basic tree using steps on the Nature of Code website: <a href="./Processing/tree1/tree1.pde">Tree 1</a>
+- Fractal tree where the angle changes based on mouseX: <a href="./Processing/tree_mouseX/tree_mouseX.pde">tree_mousX</a>
+- Kind of animation where Perlin noise has been used to move the tree over time: <a href="./Processing/tree_animating_noise/tree_animating_noise.pde">tree_animating_noise</a>

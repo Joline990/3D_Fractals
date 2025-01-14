@@ -1,4 +1,6 @@
 # Demos
+## p5js
+- Fractals recursion: simple try of creating a 2d fractal
 ## Processing
 ### Mandelbulb
 - <a href="./Processing/Mandelbulb/Mandelbulb.pde">Mandelbulb: </a>created by following this tutorial: https://www.youtube.com/watch?v=NJCiUVGiNyA&t=319s
@@ -15,3 +17,5 @@
 - Created basic tree using steps on the Nature of Code website: <a href="./Processing/tree1/tree1.pde">Tree 1</a>
 - Fractal tree where the angle changes based on mouseX: <a href="./Processing/tree_mouseX/tree_mouseX.pde">tree_mousX</a>
 - Kind of animation where Perlin noise has been used to move the tree over time: <a href="./Processing/tree_animating_noise/tree_animating_noise.pde">tree_animating_noise</a>
+### Sierpinski Rhombus fractal
+- 2D: <a href="./Processing/sketch__Rhombus__fractal__2d_/sketch__Rhombus__fractal__2d_.pde">Sierpinski Rhombus fractal</a> -> Looks very similar to <a href="./Processing/Sierpinski2/Sierpinski2.pde">Sierpinski2</a>, the only difference is that Sierpinski2 used triangles and now it uses rhombuses.

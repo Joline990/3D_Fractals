@@ -34,3 +34,4 @@
 ### PyOpenGl
 - <a href="./Python/pyopengl/cube.py">Cube</a>: Based on https://www.tutorialspoint.com/pygame/pygame_pyopengl.htm, https://medium.com/@aleksej.gudkov/best-python-libraries-for-3d-game-development-c302f65bc10b
 - <a href="./Python/pyopengl/mengersponge.py">Menger sponge</a>
+- Face culling cube: <a href="./Python/pyopengl/cube2.py">Cube 2</a>. Based on https://learnopengl.com/Advanced-OpenGL/Face-culling#:~:text=To%20enable%20face%20culling%20we,inner%20faces%20are%20indeed%20discarded, https://stackoverflow.com/questions/54067690/how-to-use-face-culling-and-depth-test-in-pyopengl

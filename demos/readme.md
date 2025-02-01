@@ -18,7 +18,9 @@
 - Fractal tree where the angle changes based on mouseX: <a href="./Processing/tree_mouseX/tree_mouseX.pde">tree_mousX</a>
 - Kind of animation where Perlin noise has been used to move the tree over time: <a href="./Processing/tree_animating_noise/tree_animating_noise.pde">tree_animating_noise</a>
 ### Sierpinski Rhombus fractal
-- 2D: <a href="./Processing/sketch__Rhombus__fractal__2d_/sketch__Rhombus__fractal__2d_.pde">Sierpinski Rhombus fractal</a> -> Looks very similar to <a href="./Processing/Sierpinski2/Sierpinski2.pde">Sierpinski2</a>, the only difference is that Sierpinski2 used triangles and now it uses rhombuses.
+- Version 1: <a href="./Processing/sketch__Rhombus__fractal__2d_/sketch__Rhombus__fractal__2d_.pde">Sierpinski Rhombus fractal</a> -> Looks very similar to <a href="./Processing/Sierpinski2/Sierpinski2.pde">Sierpinski2</a>, the only difference is that Sierpinski2 used triangles and now it uses rhombuses.
+- Version 2 (better written): made some changes from version 1: coloured in mini white intermediate lines, more logical naming, logic because placed differently when drawing the rhombus so it is easier to understand. <a href="./Processing/Rhombus_fractal_2/Rhombus_fractal_2.pde">Rhombus fractal 2</a>
+
 ## Python
 ### Cube
 - First I followed tutorials where people make 3d cubes in Python. The <a href="./Python/3d projection cube.py">3d projection cube</a> was one I made. This was based on the tutorial: https://www.youtube.com/watch?v=qw0oY6Ld-L0.

@@ -96,6 +96,6 @@ def init():
         generate_menger_sponge(0, 0, 0, 1, max_level)
         glPopMatrix()
         pygame.display.flip() #show visual
-       
+
 
 init()

@@ -1,4 +1,7 @@
 # 3D Fractals
+This is the code for my personal passion project: exploring 3d fractals.
+Read my blog here: [https://joline990.github.io/](https://joline990.github.io/)
+
 ## Demos
 A brief explanation of what each demo contains, is described in the readme file of the demos folder.
 
@@ -6,7 +9,8 @@ A brief explanation of what each demo contains, is described in the readme file 
 Follow these instructions or watch the video below.
 
 1. Install blender
-    Download blender: [Link](https://www.blender.org/download/)
+
+    Download blender: [https://www.blender.org/download/](https://www.blender.org/download/)
     
 2. Create a new general file & delete all items from the viewport 
     - Click A + X + D

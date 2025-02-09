@@ -4,7 +4,7 @@ import math
 import numpy as np
 
 MAX_LEVEL = 2 # >=3, computer will run slow
-ANGLE = math.pi / 3  # acute angle in radians
+ANGLE = math.pi / 3
 ORIGIN_VECTORS = np.array([
     [1, 0, 0],  # e1
     [math.cos(ANGLE), math.sin(ANGLE), 0],  # e2
@@ -48,7 +48,7 @@ def draw_rhombohedron():
     """Draw rhombohedrons by looping over precomputed_rhombohedrons"""
     global precomputed_rhombohedrons
 
-    for  new_x, new_y, new_z, new_size in precomputed_rhombohedrons:
+    for new_x, new_y, new_z, new_size in precomputed_rhombohedrons:
         base = np.array([new_x, new_y, new_z])
         vertices = np.array([
             base,
@@ -88,7 +88,7 @@ def generate_rhombohedron(x, y, z, rhombohedron_size, MAX_LEVEL):
 
                 child_rhombohedrons = generate_rhombohedron(new_x, new_y, new_z, new_size, MAX_LEVEL - 1)
                 rhombohedrons = np.vstack((rhombohedrons, child_rhombohedrons))
-
+                
     return rhombohedrons
 
 

@@ -33,7 +33,21 @@
 - Difference between append() and extend(): <a href="./Python/append() vs extend().py">append() vs extend()</a>.
 ### Rhombohedron fractal
 - <a href="./Python/rhombohedron fractal.py">Rhombohedron fractal</a>: Started from menger sponge & rhombohedron2 code.
+- Refactored without NumPy: <a href="./Python/refactor-nonumpy-rhombohedron.py">Refactored Rhombohedron no numpy</a>
+- Refactored with NumPy: <a href="./Python/refactor-rhombohedron fractal.py">Refactored Rhombohedron with numpy</a>
 ### PyOpenGl
 - <a href="./Python/pyopengl/cube.py">Cube</a>: Based on https://www.tutorialspoint.com/pygame/pygame_pyopengl.htm, https://medium.com/@aleksej.gudkov/best-python-libraries-for-3d-game-development-c302f65bc10b
 - <a href="./Python/pyopengl/mengersponge.py">Menger sponge</a>
 - Face culling cube: <a href="./Python/pyopengl/cube2.py">Cube 2</a>. Based on https://learnopengl.com/Advanced-OpenGL/Face-culling#:~:text=To%20enable%20face%20culling%20we,inner%20faces%20are%20indeed%20discarded, https://stackoverflow.com/questions/54067690/how-to-use-face-culling-and-depth-test-in-pyopengl
+#### Midi
+- Python-rtmidi library: <a href="./Python/pyopengl/midi/midi.py">Midi</a>
+- Mido library: <a href="./Python/pyopengl/midi/midi2.py">Midi 2</a>
+- Menger sponge (not fully correct) with midi pad toggle inverse visibility: <a href="./Python/pyopengl/midi/mengermidi.py">Menger Midi</a>
+- Rhombohedron fractal created to toggle inverse visibility with midi pad:
+    - Step 1 - setup pygame & pyopengl & draw a rhombohedron using faces & vertices: <a href="./Python/pyopengl/midi/rhombohedron_fractal_midi.py">Rhombohedron Fractal Midi</a>
+    - Step 2 - make fractal from the rhombohedron: <a href="./Python/pyopengl/midi/rhombohedron_fractal_midi2.py">Rhombohedron Fractal Midi 2</a>
+    - Step 3 - add midi pad interactivity: <a href="./Python/pyopengl/midi/rhombohedron_fractal_midi3.py">Rhombohedron Fractal Midi 3</a>
+## Blender
+- Cube with vertices & faces instead of default cube object: <a href="./Blender/cube.blend">Cube</a>
+- Menger sponge: <a href="./Blender/menger_sponge.blend">Menger sponge</a>
+- Rhombohedron fractal (without custom panels): <a href="./Blender/rhombohedron_fractal.blend">Rhombohedron fractal</a>

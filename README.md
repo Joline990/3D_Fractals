@@ -28,9 +28,8 @@ Follow these instructions or watch the video below.
     
     Interact with the rhombohedron fractal and have fun!
 
-<video width="320" height="240" controls>
-  <source src="/footage/Setup project.mp4" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/dc54ea7d-7991-4f57-8311-83a269cc1544
+
 
 ### Add MIDI controller
 To connect a midi controller, I used the MidiController add-on: [https://github.com/EldinZenderink/MidiController](https://github.com/EldinZenderink/MidiController).
